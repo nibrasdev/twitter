@@ -4,6 +4,8 @@ Endroid Twitter Bundle
 *By [endroid](http://endroid.nl/)*
 
 [![Build Status](https://secure.travis-ci.org/endroid/EndroidTwitterBundle.png)](http://travis-ci.org/endroid/EndroidTwitterBundle)
+[![Latest Stable Version](https://poser.pugx.org/endroid/twitter-bundle/v/stable.png)](https://packagist.org/packages/endroid/twitter-bundle)
+[![Total Downloads](https://poser.pugx.org/endroid/twitter-bundle/downloads.png)](https://packagist.org/packages/endroid/twitter-bundle)
 
 This bundle enables you to use Endroid [`Twitter`](https://github.com/endroid/Twitter) as a service in your Symfony project.
 It also provides an API controller that takes a local API request, adds an OAuth signature to it and returns the corresponding
