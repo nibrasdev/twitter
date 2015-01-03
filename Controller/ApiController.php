@@ -43,7 +43,7 @@ class ApiController extends Controller
             $response->getContent(),
             $response->getStatusCode(),
             array(
-                'Content-Type' => $response->getHeader('Content-Type')
+                'Content-Type' => $response->getHeader('Content-Type'),
             )
         );
     }
