@@ -25,26 +25,13 @@ For more information see the [endroid/Twitter](https://github.com/endroid/Twitte
 
 ## Installation
 
-### Add in your composer.json
-
-```js
-{
-    "require": {
-        "endroid/twitter-bundle": "dev-master"
-    }
-}
-```
-
-### Install the bundle
+Use [Composer](https://getcomposer.org/) to install the bundle.
 
 ``` bash
-$ curl -s http://getcomposer.org/installer | php
-$ php composer.phar update endroid/twitter-bundle
+$ composer require endroid/twitter-bundle
 ```
 
-Composer will install the bundle to your project's `vendor/endroid` directory.
-
-### Enable the bundle via the kernel
+Then enable the bundle via the kernel.
 
 ``` php
 <?php
@@ -103,8 +90,11 @@ $tweets = $twitter->getTimeline(array(
 // Or retrieve the timeline using the generic query method
 $response = $twitter->query('statuses/user_timeline', 'GET', 'json');
 $tweets = json_decode($response->getContent());
-
 ```
+
+## Versioning
+
+Semantic versioning ([semver](http://semver.org/)) is applied.
 
 ## License
 
