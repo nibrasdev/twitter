@@ -17,9 +17,10 @@
         "endroid/twitter": "~1.0"
     },
     "autoload": {
-        "psr-0": { "Endroid\\Bundle\\TwitterBundle": "" }
+        "psr-4": {
+          "Endroid\\Bundle\\TwitterBundle\\": ""
+        }
     },
-    "target-dir": "Endroid/Bundle/TwitterBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
