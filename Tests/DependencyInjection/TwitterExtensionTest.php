@@ -9,7 +9,9 @@
 
 namespace Endroid\Bundle\TwitterBundle\Tests\DependencyInjection;
 
-class TwitterExtensionTest extends \PHPUnit_Framework_TestCase
+use PHPUnit_Framework_TestCase;
+
+class TwitterExtensionTest extends PHPUnit_Framework_TestCase
 {
     public function testNoTestsYet()
     {

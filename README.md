@@ -1,5 +1,5 @@
-Endroid Twitter Bundle
-======================
+Twitter Bundle
+==============
 
 *By [endroid](http://endroid.nl/)*
 
