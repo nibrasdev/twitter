@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Endroid\\Bundle\\TwitterBundle\\": ""
+            "Endroid\\Bundle\\TwitterBundle\\": [ "src/", "tests/" ]
         }
     },
     "config": {

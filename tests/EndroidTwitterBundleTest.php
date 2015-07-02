@@ -7,11 +7,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\Bundle\TwitterBundle\Tests\DependencyInjection;
+namespace Endroid\Bundle\BehaviorBundle;
 
 use PHPUnit_Framework_TestCase;
 
-class TwitterExtensionTest extends PHPUnit_Framework_TestCase
+class EndroidTwitterBundleTest extends PHPUnit_Framework_TestCase
 {
     public function testNoTestsYet()
     {
