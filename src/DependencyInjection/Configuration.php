@@ -14,19 +14,23 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 
 class Configuration implements ConfigurationInterface
 {
+    /**
+     * {@inheritdoc}
+     */
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('endroid_twitter');
 
-        $rootNode
-            ->children()
-                ->scalarNode('consumer_key')->isRequired()->cannotBeEmpty()->end()
-                ->scalarNode('consumer_secret')->isRequired()->cannotBeEmpty()->end()
-                ->scalarNode('access_token')->isRequired()->cannotBeEmpty()->end()
-                ->scalarNode('access_token_secret')->isRequired()->cannotBeEmpty()->end()
-                ->scalarNode('api_url')->defaultValue(null)->end()
-            ->end();
+        $treeBuilder
+            ->root('endroid_twitter')
+                ->children()
+                    ->scalarNode('consumer_key')->isRequired()->cannotBeEmpty()->end()
+                    ->scalarNode('consumer_secret')->isRequired()->cannotBeEmpty()->end()
+                    ->scalarNode('access_token')->isRequired()->cannotBeEmpty()->end()
+                    ->scalarNode('access_token_secret')->isRequired()->cannotBeEmpty()->end()
+                    ->scalarNode('api_url')->defaultValue(null)->end()
+                ->end()
+        ;
 
         return $treeBuilder;
     }
