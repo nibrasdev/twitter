@@ -26,6 +26,8 @@ class EndroidTwitterExtension extends Extension
         $container->setParameter('endroid.twitter.access_token', $config['access_token']);
         $container->setParameter('endroid.twitter.access_token_secret', $config['access_token_secret']);
         $container->setParameter('endroid.twitter.api_url', $config['api_url']);
+        $container->setParameter('endroid.twitter.proxy', $config['proxy']);
+        $container->setParameter('endroid.twitter.timeout', $config['timeout']);
 
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
