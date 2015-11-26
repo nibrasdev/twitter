@@ -29,6 +29,8 @@ class Configuration implements ConfigurationInterface
                     ->scalarNode('access_token')->isRequired()->cannotBeEmpty()->end()
                     ->scalarNode('access_token_secret')->isRequired()->cannotBeEmpty()->end()
                     ->scalarNode('api_url')->defaultValue(null)->end()
+                    ->scalarNode('proxy')->defaultValue(null)->end()
+                    ->integerNode('timeout')->defaultValue(5)->end()
                 ->end()
         ;
 
