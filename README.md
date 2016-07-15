@@ -3,9 +3,11 @@ Twitter Bundle
 
 *By [endroid](http://endroid.nl/)*
 
+[![Latest Stable Version](http://img.shields.io/packagist/v/endroid/twitter-bundle.svg)](https://packagist.org/packages/endroid/twitter-bundle)
 [![Build Status](https://secure.travis-ci.org/endroid/EndroidTwitterBundle.png)](http://travis-ci.org/endroid/EndroidTwitterBundle)
-[![Latest Stable Version](https://poser.pugx.org/endroid/twitter-bundle/v/stable.png)](https://packagist.org/packages/endroid/twitter-bundle)
-[![Total Downloads](https://poser.pugx.org/endroid/twitter-bundle/downloads.png)](https://packagist.org/packages/endroid/twitter-bundle)
+[![Total Downloads](http://img.shields.io/packagist/dt/endroid/twitter-bundle.svg)](https://packagist.org/packages/endroid/twitter-bundle)
+[![Monthly Downloads](http://img.shields.io/packagist/dm/endroid/twitter-bundle.svg)](https://packagist.org/packages/endroid/twitter-bundle)
+[![License](http://img.shields.io/packagist/l/endroid/twitter-bundle.svg)](https://packagist.org/packages/endroid/twitter-bundle)
 
 This bundle enables you to use Endroid [`Twitter`](https://github.com/endroid/Twitter) as a service in your Symfony project.
 It also provides an API controller that takes a local API request, adds an OAuth signature to it and returns the corresponding
@@ -94,9 +96,9 @@ $tweets = json_decode($response->getContent());
 
 ## Versioning
 
-Version numbers follow the MAJOR.MINOR.PATCH scheme. Backwards compatible
-changes will be kept to a minimum but be aware that these can occur. Lock
-your dependencies for production and test your code when upgrading.
+Version numbers follow the MAJOR.MINOR.PATCH scheme. Backwards compatibility
+breaking changes will be kept to a minimum but be aware that these can occur.
+Lock your dependencies for production and test your code when upgrading.
 
 ## License
 
