@@ -1,3 +1,6 @@
+**THIS BUNDLE HAS MOVED TO [`endroid/twitter`](https://github.com/endroid/Twitter)**  
+**THIS REPOSITORY IS ABANDONED AND WILL BE REMOVED ON 01-07-2017**
+
 Twitter Bundle
 ==============
 
